@@ -1,5 +1,7 @@
 import os
-# the-poem-about-stopping-20261121-1927: entry program (revised after local test)
+# the-poem-about-stopping-20261121-1927: entry program
+# rev 2 (2026-11-21 ~19:35 UTC): local test passed — output 145 code points, within the <=280 limit;
+# poem kept as-is: stopping is the agency, one agent choosing to stay for another.
 
 out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(out, exist_ok=True)
